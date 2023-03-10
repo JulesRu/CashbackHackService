@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92acfba-1bd4-453a-8853-8c6dadd23b4a" name="Changes" comment="git commit &quot;Initial commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" afterDir="false" />
+    <list default="true" id="d92acfba-1bd4-453a-8853-8c6dadd23b4a" name="Changes" comment="git commit &quot;Tests added, 1 bug found&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="testng" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +85,13 @@
       <recent name="ru.netology.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CashBackHacker [clean :test]">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+      <command value="gradle clean :test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.CashbackHackServiceTest">
     <configuration name="CashBackHacker [clean :test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CashbackHackServiceTest.remain0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CashbackHackServiceTest.remain1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -165,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.service.CashbackHackServiceTest.remain0&quot;" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTest.remain1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -200,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CashbackHackServiceTest" />
+        <item itemvalue="Gradle.CashbackHackServiceTest.remain1" />
         <item itemvalue="Gradle.CashBackHacker [clean :test]" />
         <item itemvalue="Gradle.CashBackHacker [clean]" />
         <item itemvalue="Gradle.CashbackHackServiceTest.remain999" />
-        <item itemvalue="Gradle.CashbackHackServiceTest.remain0" />
-        <item itemvalue="Gradle.CashbackHackServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678455803819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git commit &quot;Tests added, 1 bug found&quot;">
+      <created>1678463069377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678463069377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +251,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="testng" />
+                        <option value="junit4" />
                       </list>
                     </value>
                   </entry>
@@ -268,6 +281,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git status" />
     <MESSAGE value="git commit &quot;Initial commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit &quot;Initial commit&quot;" />
+    <MESSAGE value="git commit &quot;Tests added, 1 bug found&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit &quot;Tests added, 1 bug found&quot;" />
   </component>
 </project>
